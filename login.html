@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LOGIN</title>
+    <!-- css bootsraps -->
+    <link rel="stylesheet" href="libraries/bootsrap/css/bootstrap.css" />
+    <!-- style css -->
+    <link rel="stylesheet" href="style/login.css" />
+    <!-- font awesome -->
+    <link rel="stylesheet" href="libraries/fontawesome/css/all.css">
+    <!-- font google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="user-login col-sm-auto col-md-4 col-xl-4 mx-auto p-4">
+        <div class="text-form text-center">
+          <h4>FORM LOGIN</h4>
+          <p>APLIKASI KOPERASI BERSAMA</p>
+        </div>
+        <hr>
+          <div class="mb-3 mt-4">
+            <label for="username" class="form-label">Username</label>
+            <div class="input-group">
+              <div class="input-group-text">
+                <i class="fas fa-user"></i>
+              </div>
+              <input type="text" class="form-control" placeholder="Masukkan Username Anda" id="username" />
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="password" class="form-label">Password</label>
+            <div class="input-group">
+              <div class="input-group-text">
+                <i class="fas fa-unlock-alt"></i>
+              </div>
+              <input type="password" class="form-control" placeholder="Masukkan Password Anda" id="password" />
+            </div>
+          </div>
+          <p><a href="#" class="text-decoration-none">Lupa Password ?</a></p>
+          <button type="submit" class="btn btn-primary me-2 btn-login" value="submit">Login</button>
+          <button type="reset" class="btn btn-danger" value="reset">Reset</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- js -->
+    <script src="libraries/fontawesome/js/all.js"></script>
+    <script src="libraries/jquery/jquery-3.6.0.min.js"></script>
+    <script src="libraries/bootsrap/js/bootstrap.js"></script>
+  </body>
+</html>
