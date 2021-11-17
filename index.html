@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LOGIN</title>
+    <!-- css bootsraps -->
+    <link rel="stylesheet" href="libraries/bootsrap/css/bootstrap.css" />
+    <!-- style css -->
+    <link rel="stylesheet" href="style/index.css" />
+    <!-- font awesome -->
+    <link rel="stylesheet" href="libraries/fontawesome/css/all.css" />
+    <!-- font google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container">
+        <a class="navbar-brand" href="#">KOPBERSA</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link text-white" aria-current="page" href="#">Logout</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <nav class="navbar navbar-dark bg-secondary">
+        <div class="container text-white">
+          <div class="list-group">
+            <div class="list-group-item d-flex justify-content-between align-items-start bg-transparent border-0">
+              <i class="fas fa-tachometer-alt fa-2x text-white"></i>
+              <div class="ms-2">
+                <h4 class="text-white">Dashboard</h4>
+              </div>
+            </div>
+          </div>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-primary" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    </main>
+
+    <section>
+      <div class="container">
+        <div class="row mt-3">
+          <div class="col-sm-3 col-md-3 col-xl-3 p-2 bg-white">
+            <div class="bg-secondary text-white">
+              <div class="card-header bg-secondary mb-2">
+                <i class="fas fa-globe-asia fa-1x me-1"></i>
+                Admin Panel
+              </div>
+            </div>
+            <div class="list-group">
+              <div class="list-group-item active d-flex justify-content-between align-items-start">
+                <a href="#" class="text-decoration-none text-white">Tambah Data</a>
+                <i class="fas fa-user fa-1x"></i>
+              </div>
+              <div class="list-group-item list-group-item-action d-flex justify-content-between align-items-start">
+                <a href="#" class=" text-decoration-none text-dark">Data Pemohon</a>
+                <i class="fas fa-book fa-1x"></i>
+              </div>
+              <div class="list-group-item list-group-item-action d-flex justify-content-between align-items-start">
+                <a href="#" class=" text-decoration-none text-dark">Persetujuan</a>
+                <i class="fas fa-check-circle fa-1x"></i>
+              </div>
+            </div>
+        </div>
+        <div class="col-sm-3 col-md-3 col-xl-8 offset-xl-1 p-2 bg-white">
+          <div class="bg-secondary text-white">
+            <div class="card-header bg-secondary mb-2">
+              <i class="fas fa-eye fa-1x me-1"></i>
+              Website Overview
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xl-3">
+              <div class="card">
+                <div class="card-body text-center bg-light">
+                  <h4><i class="fas fa-user me-1"></i>120</h4>
+                  <p class="fw-bold">Users</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3">
+              <div class="card">
+                <div class="card-body text-center bg-light">
+                  <h4><i class="fas fa-file-alt me-1"></i>22</h4>
+                  <p class="fw-bold">Pages</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3">
+              <div class="card">
+                <div class="card-body text-center bg-light">
+                  <h4><i class="fas fa-pencil-alt me-1"></i>42</h4>
+                  <p class="fw-bold">Post</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3">
+              <div class="card">
+                <div class="card-body text-center bg-light">
+                  <h4><i class="fas fa-chart-line me-1"></i>1.250</h4>
+                  <p class="fw-bold">Visit</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 col-md-6 col-xl-8 offset-xl-4 bg-white mt-xl-3 mt-md-0 p-2">
+          <div class="text-white">
+            <div class="card-header bg-secondary ">
+              <i class="fas fa-clock fa-1x me-1"></i>
+              Latest Users
+            </div>
+          </div>
+          <table class="table table-striped mt-2">
+            <thead>
+              <tr>
+                <th scope="col">No</th>
+                <th scope="col">Nama</th>
+                <th scope="col">Nik</th>
+                <th scope="col">Email</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Andrian Saputra</td>
+                <td>21100011110000</td>
+                <td>Andri5100@gmail.com</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Ani Ranita</td>
+                <td>2110001111009</td>
+                <td>ani121@yahoo.com</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Erlina Susanti</td>
+                <td>21100011110010</td>
+                <td>erlina123@gmail.com</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <footer class="text-center text-secondary mt-4">
+      <p>copyright &copy;2019, AdminWeb</p>
+    </footer>
+
+    <!-- js -->
+    <script src="libraries/fontawesome/js/all.js"></script>
+    <script src="libraries/jquery/jquery-3.6.0.min.js"></script>
+    <script src="libraries/bootsrap/js/bootstrap.js"></script>
+  </body>
+</html>
